@@ -1,5 +1,7 @@
 # PHPStan 2.3.x-dev: internal error with `unresolvedTemplateArguments`
 
+Reported upstream as [phpstan/phpstan#15331](https://github.com/phpstan/phpstan/issues/15331).
+
 With `featureToggles.unresolvedTemplateArguments` on (it is part of bleeding edge
 on `2.3.x`), analysing [`src/repro.php`](src/repro.php) crashes PHPStan, even at
 level 0:
