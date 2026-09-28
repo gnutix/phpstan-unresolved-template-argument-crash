@@ -1,0 +1,11 @@
+{
+    "name": "gnutix/phpstan-unresolved-template-argument-crash",
+    "description": "Reproduction of a PHPStan 2.3.x-dev internal error with featureToggles.unresolvedTemplateArguments",
+    "type": "project",
+    "license": "MIT",
+    "require-dev": {
+        "phpstan/phpstan": "2.3.x-dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
